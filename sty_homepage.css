@@ -7,42 +7,14 @@
 }
 body{
   font-family: roboto;
-}
-/* nav{
-  background: black;
-  height: 90px;
-  width: 100%;
-}
-a.logo{
-  color:white;
-  font-size: 35px;
-  line-height: 80px;
-  margin: 0 100px;
-  font-weight: bold;
-}
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  padding: 0 10px;
-  margin: 0 5px;
-}
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-}
-a:hover{
-  background: #413f3f;
-  transition: .5s;
-} */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 10vh;
   background-color: black;
@@ -52,6 +24,7 @@ nav {
 
 .logo {
   font-size: 24px;
+  color: white;
 }
 
 .nav-links {
@@ -175,15 +148,19 @@ footer {
 .footer-section h4 {
   margin-bottom: 15px;
   font-size: 25px;
+  font-weight: 300;
 }
 
 .footer-section p, .footer-section ul {
   margin: 0;
   padding: 0;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 .footer-section ul {
   list-style: none;
+  
 }
 
 .footer-section ul li {
@@ -232,6 +209,9 @@ footer {
 
   .footer-section {
       margin: 20px 0;
+  }
+  nav{
+    justify-content: space-between;
   }
   .nav-links {
     display: none;

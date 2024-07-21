@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
+    const burger = document.querySelector('myburger');
+    const nav = document.querySelector('mynav-links');
+    const navLinks = document.querySelectorAll('mynav-links li');
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
@@ -18,3 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+console.log('hello');
