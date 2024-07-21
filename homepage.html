@@ -3,29 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="sty_homepage.css">
     <script src="homepage.js"></script>
     <title>EXFREECLUB</title>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">EXFREECLUB</a>
-        <a href="#news">PROGRAM</a>
-        <a href="#contact">WORKOUTS</a>
-        <a href="#about">CONTACT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div class="container">
-        <div class="navba">
-            <nav>Hello</nav>
+    <!-- <nav>
+        <a class="logo" href="#">EXFREECLUB</a>
+        <ul>
+            <li><a class="active" href="#">PROGRAMS</a></li>
+            <li><a href="#">WORKOUTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav> -->
+
+
+    <nav>
+        <div class="logo">EXFREECLUB</div>
+        <ul class="nav-links">
+            <li><a href="#">PROGRAMS</a></li>
+            <li><a href="#">WORKOUTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
+    </nav>
+
+
+
+
+
+    <div class="container">
+        <div class="box1">
+            <img class="img_box1" src="img_homepage/img_box1.png" width="2537" height="1400">
+        </div>
+        <div class="box2">
+            <img class="img_box2" src="img_homepage/img_box2.png" style="width:100%;">
+                <div class="header_box">
+                    <h1>PROGRAMS</h1>
+                    <p>โปรแกรมออกกำลังกายฟรี คุณสามารถดูและฝึกทำตามได้โดยไม่เสียค่าใช้จ่าย</p>
+                </div>
+                <div class="btn">
+                    <a href="#">ดูเพิ่มเติม</a>
+                </div>
+        </div>
+        <div class="box3">
+            <img class="img_box3" src="img_homepage/img_box3.png" width="2537" height="1400">
+                <div class="header_box">
+                    <h1>WORKOUTS</h1>
+                    <p>ท่าออกกำลังกายพพื้นฐาน ของแต่ละส่วนของร่างกาย</p>
+                </div>
+                <div class="btn">
+                    <a href="#">ดูเพิ่มเติม</a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container1">
+                <h1>EXFREECLUB</h1>
+            </div>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>PROGRAMS</h4>
+                </div>
+                <div class="footer-section">
+                    <h4>WORKOUTS</h4>
+                    <ul>
+                        <li><a href="#">ABS</a></li>
+                        <li><a href="#">ARMS</a></li>
+                        <li><a href="#">LEGS</a></li>
+                        <li><a href="#">BACK</a></li>
+                        <li><a href="#">SHOULDERS</a></li>
+                        <li><a href="#">CHEST</a></li>
+                        <li><a href="#">FULL-BODY</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CONTACT</h4>
+                    <p>phongsathonpiw@gmail.com</p>
+                    <p>(+66)62-603-5552</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
