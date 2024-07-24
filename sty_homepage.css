@@ -40,7 +40,23 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  position: relative;
 }
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.nav-links a:hover:after {
+  width: 100%;
+}
+
 
 .burger {
   display: none;

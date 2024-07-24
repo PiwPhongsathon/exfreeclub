@@ -14,10 +14,11 @@
 .image-item {
     margin: 10px;
     text-align: center;
+    border: 20px;
   }
   
   .image-item img {
-    border-radius: 50%;
+    border-radius: 500%;
     width: 100px;
     height: 100px;
   }
