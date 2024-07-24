@@ -45,14 +45,15 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25px;
 }
 
 .burger div {
   width: 25px;
   height: 3px;
   background-color: white;
-  margin: 5px;
-  transition: all 0.3s ease;
 }
 
 
@@ -215,33 +216,21 @@ footer {
   }
   .nav-links {
     display: none;
-    position: absolute;
-    right: 0;
-    height: 100vh;
-    top: 10vh;
-    background-color: #333;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
+    text-align: center;
+}
 
-  .nav-links li {
-    opacity: 0;
-  }
+.nav-links.responsive {
+    display: flex;
+}
 
-  .burger {
-    display: block;
-  }
+.nav-links li {
+    margin: 10px 0;
+}
 
-  .nav-active {
-  transform: translateX(0%);
-  }
-
-  .nav-active li {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-  }
+.burger {
+    display: flex;
+}
 
 }
